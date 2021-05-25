@@ -22,6 +22,7 @@ public class LoginScreen extends ScreenBase{
 
 	}
 	
+	// new comment
 	
 	public ChooseTopicsScreen clickGetStartedBtn() {
 		
