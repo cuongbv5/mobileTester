@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="FlipboardLoginTest(failed)">
+    <classes>
+      <class name="testcases.FlipboardLoginTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="validateGetStartedButton" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.FlipboardLoginTest -->
+    </classes>
+  </test> <!-- FlipboardLoginTest(failed) -->
+  <test thread-count="5" name="Title Section Test(failed)">
+    <classes>
+      <class name="testcases.TitleSectionTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="init"/>
+          <include name="validateTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TitleSectionTest -->
+    </classes>
+  </test> <!-- Title Section Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
